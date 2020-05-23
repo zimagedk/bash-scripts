@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event version="2.0" uid="123456" type="a-f-G-U-C" time="2020-05-24T23:23:36.647Z" start="2020-05-24T23:23:36.647Z" stale="2020-05-24T23:24:01.647Z" how="m-g">
+    <point lat="55.950691" lon="10.432106" hae="112.88860042789838" ce="3.2" le="9999999.0"/>
+    <detail>
+        <contact callsign="test"/>
+        <track course="31.11981041387699" speed="0.0"/>
+    </detail>
+</event>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<event version="2.0" uid="123456" type="a-f-G-U-C" time="2020-05-24T23:33:36.647Z" start="2020-05-24T23:33:36.647Z" stale="2020-05-24T23:34:01.647Z" how="m-g">
+    <point lat="55.950691" lon="10.432106" hae="112.88860042789838" ce="3.2" le="9999999.0"/>
+    <detail>
+        <contact callsign="test"/>
+        <track course="31.11981041387699" speed="0.0"/>
+    </detail>
+</event>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><event version="2.0" uid="123456" type="a-f-G-U-C" time="2020-05-24T23:43:36.647Z" start="2020-05-24T23:43:36.647Z" stale="2020-05-24T23:44:01.647Z" how="m-g"><point lat="55.950691" lon="10.432106" hae="112.88860042789838" ce="3.2" le="9999999.0"/><detail><contact callsign="test"/><track course="31.11981041387699" speed="0.0"/></detail></event>
