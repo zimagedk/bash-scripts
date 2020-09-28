@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# This scripts searches up the folder structure for the first occurence of a gradle wrapper script, and executes it with the parameters given this script
+# It was created to be able to run gradle from anywhere within a project structure
+# Author: Morten Krogh Andersen / morten@zimage.dk
+
+script=gradlew
+def_bin=gradle
+bin=
+
+here=$(pwd)
+
+while [ -z "${bin}" ] ; do
+	found="${here}/${script}"
+	if [[ -x "${found}" ]] ; then
+		bin=$found
+		break
+	fi
+	here=$(dirname ${here})
+	[[ "${here}" = "/" ]] && break;
+done
+
+[[ -z "${bin}" ]] && bin=$def_bin
+
+if [[ ! -x $bin ]] ; then
+	echo $bin not found
+	exit 1
+fi
+
+$bin $*
